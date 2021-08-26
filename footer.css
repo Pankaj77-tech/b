@@ -1,0 +1,88 @@
+footer{
+    background-color: #1F2833;
+    height:380px;
+    width: 100%;
+    padding-top: 40px;
+    color: white;
+}
+.footer-content{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+}
+/* .logos{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content:center;  
+} */
+.layout{
+    table-layout: fixed;
+    column-count: 3;
+}
+#location{
+    font-size: 13px;
+    flex-wrap: center;
+    /* float: left; */
+    /* width: 20%; */
+}
+#web{
+    margin-right: center ;
+}
+#mail{
+    margin-right: center ;
+}
+
+.about-content{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.about-content td{
+    padding: 10px;
+    margin: 0 200px;
+    margin-left: 10px;
+}
+.logos td{
+    padding: 20px;
+    margin: 0 200px;
+    /* margin-left: 10px; */
+}
+.navbar{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.navbar li{
+    padding: 20px;
+    margin: 0 8px;
+}
+.navbar li a{
+    color: white;
+    font-size: 15px;
+
+}
+.navbar li a:hover{
+    color: #BCD5DC;
+}
+.social-links{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.social-links li{
+    margin:0 10px;
+}
+
+.copy{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+

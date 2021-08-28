@@ -66,4 +66,41 @@ body{
 #carouselExampleControls{
     align-items: flex-end;
 }
+.enquirybtn{
+    position: fixed;
+    bottom: 2000px;
+    /* right: 50px; */
+}
+.enquirybtn a{
+    width: 45px;
+    height: 45px;
+    background-color: #A4E4E9;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+.enquirybtn a i{
+    color: white ;
+    line-height: 42px;
+
+}
+.enquirybtn:hover{
+    background-color:#D6E7EA ;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.enquiry{
+    background-color: aqua;
+
+}
+.content-box{
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 #999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    position:absolute;
+}
 
